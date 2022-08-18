@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: #f68f19;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+ 
+}
+
+.card {
+  color: black;
+  background-color: #f68f19;
+  border: 1px solid #fff;
+}
+.cardDino {
+  height: 467px;
+}
+
+td {
+  color: black;
+}
+
+
+
+.btn {
+color: #032654;
+}
+.btnd {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+tr {
+  border-bottom: 1px solid #333;
+}
+
+
+.form-control::placeholder {
+  color: rgb(240, 98, 3);
+}
+
+@media only screen and (max-width: 600px) {
+  .btnd {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .cardDino {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+}

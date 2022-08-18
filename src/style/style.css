@@ -1,0 +1,70 @@
+body {
+  background-color: #fff;
+  padding-top: 0px;
+  width:80%;
+}
+
+#compoundInterestForm label {
+  font-weight: 600;
+  display: block;
+}
+
+.custom-tooltip {
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 120px;
+  /* max-width: 95%;*/
+  font-size: 1.5rem;
+  pointer-events: auto;
+  background-color: rgba(255,255,255,1);
+  background-clip: padding-box;
+  border: 2px solid rgba(0,0,0,.1);
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: .25rem;
+  line-height: 0%;
+}
+
+.custom-tooltip dd, .resultsTest dd {
+  text-align: right;
+}
+
+.resultsTest {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+  background-image: linear-gradient(#64b59d 0%, #3b5e53 100%);
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  margin: 5px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 2px solid #000000;
+  width: 40%;
+  margin: auto;
+}
+
+#footer {
+  margin-bottom: 40px
+}
+#footer div {
+  text-align: center
+}
+
+.resultsTest:hover,
+.resultsTest:focus,
+.resultsTest.focus,
+.resultsTest:active,
+.resultsTest.active {
+  color: #000000;
+  background-image: none;
+  background-color: #cfe7df;
+}
+.resultsTest:active,
+.resultsTest.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

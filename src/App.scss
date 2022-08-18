@@ -1,0 +1,208 @@
+body {
+  // background-color: black;
+  color: #f68f19;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+}
+
+.card+.card {
+  margin-bottom: 0px;
+}
+
+.card {
+  color: black;
+  background-color: transparent;
+  // border: 1px solid #fff;
+  border-radius: 15px;
+  // margin-bottom: 20px;
+  height: 100%;
+
+  .dashboard {
+    background-color: #000000;
+    // box-shadow: 0px 0px 4px 10px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    h3 {
+      font-family: 'Argentum Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 38px;
+      /* identical to box height, or 214% */
+
+      text-align: center;
+
+      color: #D8B256;
+    }
+
+    h4 {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 38px;
+      /* identical to box height, or 192% */
+
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+  }
+
+  .investment,
+  .referral-reward {
+    background: #FFD167;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+  }
+
+  .statistics,
+  .referral-link {
+    background: #302D4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+
+    table {
+      tr {
+        border-color: #000000;
+      }
+
+      td {
+        h6 {
+          span {
+            color: white;
+          }
+        }
+
+        h5 {
+          margin-top: 20px;
+          color: #FFD167;
+
+          span {
+            color: white;
+          }
+        }
+      }
+    }
+
+    h4 {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 38px;
+      /* identical to box height, or 214% */
+
+
+      color: #FFFFFF;
+
+    }
+
+    h6 {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 38px;
+      /* identical to box height, or 275% */
+      color: #FFD167;
+    }
+
+    .claim-btn,
+    .withdraw-btn {
+      background: #FFD167;
+      border-radius: 15px;
+      border-color: transparent;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      padding-left: 30px;
+      padding-right: 30px;
+      // line-height: 38px;
+      /* identical to box height, or 241% */
+
+
+      color: #000000;
+    }
+  }
+
+  .investment-calculator,
+  .daily-jackpot {
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    color: white;
+
+    h4 {
+      color: #FFD167;
+    }
+  }
+
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+
+  .span-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  span {
+    margin: 10px;
+    color: black
+  }
+}
+
+td {
+  color: black;
+}
+
+
+
+.btn {
+  color: #032654;
+}
+
+.btnd {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+tr {
+  border-bottom: 1px solid #333;
+}
+
+
+.form-control::placeholder {
+  color: rgb(240, 98, 3);
+}
+
+@media only screen and (max-width: 600px) {
+  .btnd {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .cardDino {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}

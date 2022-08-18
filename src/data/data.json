@@ -1,0 +1,161 @@
+{
+  "Header": {
+    "title": "BUSD Miner",
+    "paragraph": "5% Daily BUSD Rewards",
+    "text": "5% Daily BUSD (BEP20) Rewards"
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "<img src={metamask} width={50} />",
+      "name": "Add BSC network to MetaMask",
+      "text": "Go to BSCScan.com. Navigate to the bottom."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "",
+      "text": "What happens when I invest?",
+      "name": "Your BUSD gets locked into the blockchain smart contract and you are rewarded with 5% daily returns."
+    },
+    {
+      "img": "",
+      "text": "Why is 5 compounds mandatory before claiming?",
+      "name": "This feature is to ensure the longevity of the project. There is a compound counter that keeps track of the number of times you've compounded since your last mine purchase or claim."
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "What is the Best Strategy?",
+      "name": "We encourage you to use the battle-tested 10/1 strategy. It is known to provide the best results and receive the initial back in 4-6 weeks. After that period, you'll be playing with the house money."
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "How does FOMO Jackpot Work?",
+      "name": "The 3 biggest deposit addresses will be rewarded respectively $350, $100, and $50 worth of miners. The reward will be deposited directly into your current earnings at the end of the Jackpot. Jackpots are drawn every 7 days."
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "How do referrals work?",
+      "name": "After connecting your wallet to the site, your referral link will appear. Sharing this link will earn you 5% of all deposits made by your referral. These rewards can be compounded or withdrawn at any time."
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "I'm stuck. Who can help me?",
+      "name": "The BUSD Miner team and community are available on Telegram to help with any onboarding questions."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "https://www.t.me/TrustMinerCommunity",
+    "phone": "+1 123 456 1234",
+    "email": "hello@busdminer.app",
+    "telegram": "https://t.me/BUSDMinerApp",
+    "twitter": "https://twitter.com/busdminerapp",
+    "bscscan": "https://bscscan.com/address/0xF0874956ec94952EB57009DE3a6CFB074B104dfB",
+    "gitbook" : "https://busd-miner.gitbook.io/busd-miner/"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-shield",
+      "title": "Verified and Safe",
+      "text": "The BUSD Miner runs securely on the Binance Smart Chain. Our smart contract is renounced and can not be changed once it's deployed."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Platform Support",
+      "text": "The team is available 24/7 through Telegram to help with onboarding, claiming rewards, and general support."
+    },
+    {
+      "icon": "fa fa-users",
+      "title": "Community Driven",
+      "text": "The success, direction, and sustainment of the project is achieved through our strong community engagement."
+    },
+    {
+      "icon": "fa fa-usd",
+      "title": "Stable Rewards",
+      "text": "BUSD rewards are not impacted by market volatility. Consistently generate revenue in a bull or bear market."
+    }
+  ]
+}
